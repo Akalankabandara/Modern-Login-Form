@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+  }
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title{
+    font-weight: 700;
+    height: 52px;
+    font-size: 35px;
+    font-family: "ColfaxAI",-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
+  }
+  input{
+    width:350px;
+    height: 58px;
+    outline: none;
+    padding-left: 18px;
+  }
+  input::placeholder{
+    font-size: 19px;
+  }
+  .continue{
+    width: 350px;
+    height: 58px;
+    background: #2410a3;
+    color:white;
+    border: none;
+    font-size: 19px;
+    border-radius: 3px;
+  }
+  a{
+    text-decoration: none;
+    color:#2410a3;
+  }
+  .continue1{
+    width: 350px;
+    height: 58px;
+    background: white;
+    color:black;
+    font-size: 19px;
+    border-width: thin;
+    text-align: left;
+    border-color: #10a37f!important;
+  }
+  
